@@ -10,3 +10,7 @@ int main(){
     printf("%d,%f\n",n,r);
     return 0;
 }
+/*➜  ch3 git:(master) ✗ clang rate.c -lm
+➜  ch3 git:(master) ✗ ./a.out 
+10年后是现在的2.367364倍
+10,0.090000*/
