@@ -1,5 +1,11 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     printf("******\nVery good\n******\n");
     return 0;
 }
+/* 
+******
+Very good
+******
+*/
