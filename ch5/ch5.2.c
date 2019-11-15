@@ -10,6 +10,5 @@ int main()
     } while (i < 101);
     printf("%d\n", sum);
     return 0;
-} /*➜  ch5 git:(master) ✗ clang ch5.2.c 
-➜  ch5 git:(master) ✗ ./a.out 
-5050*/                                   
+}
+//5050
