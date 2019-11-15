@@ -12,8 +12,8 @@ int main()
         }
     printf("\n");
     return 0;
-}/*➜  ch5 git:(master) ✗ clang ch5.5.c
-➜  ch5 git:(master) ✗ ./a.out      
+}
+/*
 
 1       2       3       4       5
 2       4       6       8       10
