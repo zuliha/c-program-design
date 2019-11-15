@@ -19,14 +19,13 @@ int main()
     }
     return 0;
 }
-/*  ch4 git:(master) ✗ clang c6.c
-➜  ch4 git:(master) ✗ ./a.out 
+/*  
 8
 15
-➜  ch4 git:(master) ✗ ./a.out
+
 10
 19
-➜  ch4 git:(master) ✗ ./a.out
+
 -5
 -5
 */
