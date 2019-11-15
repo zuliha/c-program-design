@@ -11,6 +11,4 @@ int main()
     printf("%d\n", sum);
     return 0;
 }
-/*➜  ch5 git:(master) ✗ clang ch5.1.c 
-➜  ch5 git:(master) ✗ ./a.out 
-5050*/
+//5050
