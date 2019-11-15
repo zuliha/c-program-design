@@ -20,9 +20,8 @@ int main()
 
     return 0;
 }
-/*➜  c git:(master) ✗ cd ch4
-➜  ch4 git:(master) ✗ clang max.c 
-➜  ch4 git:(master) ✗ ./a.out 
+/*
 请输入三个数
 9 6852 585225
-最大值为585225%     */
+最大值为585225
+*/
