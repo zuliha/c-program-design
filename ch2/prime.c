@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a = 0,num;
+    int a = 0, num;
     printf("输入一个整数：");
     scanf("%d", &num);
     for (int i = 2; i < num; i++)
@@ -20,12 +20,11 @@ int main()
     }
     return 0;
 }
-/*➜  ch2 git:(master) ✗ ./a.out 
+/*
 输入一个整数：228
 228不是素数。
-➜  ch2 git:(master) ✗ ./a.out
 输入一个整数：2
 2是素数。
-➜  ch2 git:(master) ✗ ./a.out
 输入一个整数：11
-11是素数。*/
+11是素数。
+*/
