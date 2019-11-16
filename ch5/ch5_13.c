@@ -1,3 +1,4 @@
+//用迭代法求平方根
 #include <stdio.h>
 #include <math.h>
 int main()
