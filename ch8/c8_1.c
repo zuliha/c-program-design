@@ -5,6 +5,7 @@ int main()
     int *pointer_1, *pointer_2;
     pointer_1 = &a;
     pointer_2 = &b;
-    printf("%d %d",*pointer_1,*pointer_2);
+    printf("%d %d", *pointer_1, *pointer_2);
     return 0;
 }
+//100 10
