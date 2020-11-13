@@ -4,12 +4,10 @@ int main()
     int a, b;
     float x, y;
     char c1, c2;
-    scanf("%d%d", &a, &b);
-    printf("a=%d,b=%d\n", a, b);
-    scanf("%f%f", &x, &y);
-    printf("x=%f,y=%f\n", x, y);
-    scanf("%c%c", &c1, &c2);
-    printf("c1=%c,c2=%c\n", c1, c2);
+    scanf("%d%d", &a, &b);//输入整数
+    scanf("%f%f", &x, &y);//输入小数
+    scanf("%c%c", &c1, &c2);//输入字符
+    printf("a=%d,b=%d\nx=%f,y=%f\nc1=%c,c2=%c\n", a, b, x, y, c1, c2);
     return 0;
 }
 /*

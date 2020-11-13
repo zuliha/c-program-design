@@ -9,7 +9,6 @@ int main()
     return 0;
 }
 /*
-c1=-59,c2=-58
 c1=a,c2=b
 c1=97,c2=98
 */

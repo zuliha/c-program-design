@@ -6,7 +6,7 @@ int main()
 
     scanf("%d%d%d\n",&a,&b,&c);
     if (a>c)
-    {
+    {1
         swap(a,c);
     }
     if(b>c)

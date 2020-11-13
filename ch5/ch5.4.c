@@ -2,11 +2,19 @@
 int main()
 {
     int n;
+    // for (n = 100; n <= 200; n++)
+    // {
+    //     if (n % 3 == 0)
+    //         continue;
+    //     printf("%d", n);  
+    // }
+    // printf("\n");
+    // return 0;
     for (n = 100; n <= 200; n++)
     {
-        if (n % 3 == 0)
-            continue;
-        printf("%d", n);
+        if (n % 3 != 0)
+
+            printf("%d\n", n);
     }
     printf("\n");
     return 0;

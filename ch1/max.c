@@ -13,13 +13,13 @@ int main()
 int max(int x, int y)
 {
     int z;
-    if (x > y)
-        z = x;
-    else
-        z = y;
+    z = x > y ? x : y;
     return z;
 }
-/* 
+/*请输入两个整数:
+3 5
+max=5
+➜  ch1 git:(master) ✗ ./a.out
 请输入两个整数:
-8 963
-max=963*/
+43 4
+max=43*/

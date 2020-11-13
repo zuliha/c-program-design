@@ -3,25 +3,24 @@
 int main()
 {
     int i, total = 0;
-    float amount, aver;
-    for (i = 1; i < 1001; i++)
+    float aver, amount;
+
+    for (i = 1; i < 1000; i++)
     {
+        printf("enter amount:");
         scanf("%f", &amount);
-        total = total + amount;
-        if (total > sum)
+        total += amount;
+        if (total >= sum) 
             break;
     }
     aver = total / i;
-    printf("num=%d\naver=%f\n", i, aver);
+    printf("num=%d\naver= %f\n", i, aver);
     return 0;
 }
-/*
-4500
-7800
-8540
-25400
-45200
-35000
-num=6
-aver=21073.000000
-*/
+/*enter amount:20000
+enter amount:40000
+enter amount:10000 
+enter amount:10000
+enter amount:20000
+num=5
+aver= 20000.000000*/
