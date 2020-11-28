@@ -13,12 +13,17 @@ int main()
         p1 = p2;
         p2 = p;
     }
-    printf("max=%d\nmin=%d\n", *p1, *p2);
+    printf("max=%d\nmin=%d\n", *p1, *p2); 
+    printf("---------------\n");
+    printf("max=%d\nmin=%d\n", b, a);         //a,b的值不改变，而p1和p2的值改变
     return 0;
 }
 /*
 enter two numbers:
-34 67
-max=67
-min=34
+23 66 
+max=66
+min=23
+---------------
+max=66
+min=23
 */
