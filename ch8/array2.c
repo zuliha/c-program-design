@@ -10,3 +10,7 @@ int main()
     printf("a[%d][%d]=%d\n",i,j,*(*(p+i)+j));
     return 0;
 }
+/*
+enter row and colum:1 3
+a[1][3]=8
+*/
